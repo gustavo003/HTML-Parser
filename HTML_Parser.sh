@@ -9,7 +9,7 @@ echo "$0 'adress.com.br' para exibir a saída na tela "
 echo "$0 'adress.com.br' -o 'file' para direcionar a saída para um arquivo"
 printf "\n"
 
-else
+else 
 
 index="$(wget -qO- $1)"
 
@@ -34,9 +34,9 @@ then
 echo "Especifique o arquivo a ser guardado!"
 exit 1
 
+else
 
-
-bool=true;
+bool=true
 echo "" > $3 
 
 fi
@@ -58,6 +58,7 @@ then
 echo "Address: $i has IP: $ips" >> $3
 
 else
+
 echo "Address: $i has IP: $ips"
 
 fi
