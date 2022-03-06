@@ -63,17 +63,9 @@ echo "Address: $i has IP: $ips"
 fi
 
 done
-
 fi
 done
-#for i in hosts
-#do
-#echo $(host "$hosts")
-#done
 
 fi
-
-
-
 
 fi
